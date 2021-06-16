@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Ali/Desktop/Jungle/Animal.h
+
+/cygdrive/c/Users/Ali/Desktop/Jungle/DomesticAnimal.h
+Animal.h
+/cygdrive/c/Users/Ali/Desktop/Jungle/Animal.h
+
+/cygdrive/c/Users/Ali/Desktop/Jungle/Jungle.h
+Animal.h
+/cygdrive/c/Users/Ali/Desktop/Jungle/Animal.h
+
+/cygdrive/c/Users/Ali/Desktop/Jungle/Pet.h
+Animal.h
+/cygdrive/c/Users/Ali/Desktop/Jungle/Animal.h
+
+/cygdrive/c/Users/Ali/Desktop/Jungle/WildAnimal.h
+Animal.h
+/cygdrive/c/Users/Ali/Desktop/Jungle/Animal.h
+
+/cygdrive/c/Users/Ali/Desktop/Jungle/main.cpp
+iostream
+-
+Jungle.h
+/cygdrive/c/Users/Ali/Desktop/Jungle/Jungle.h
+WildAnimal.h
+/cygdrive/c/Users/Ali/Desktop/Jungle/WildAnimal.h
+DomesticAnimal.h
+/cygdrive/c/Users/Ali/Desktop/Jungle/DomesticAnimal.h
+Pet.h
+/cygdrive/c/Users/Ali/Desktop/Jungle/Pet.h
+Animal.h
+/cygdrive/c/Users/Ali/Desktop/Jungle/Animal.h
+
