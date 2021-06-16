@@ -16,7 +16,7 @@ public:
     static const int width = 700;
     static const int xx = 100; //x of pit's center
     static const int yy = 180; //y of pit's center
-    static const int r = 10; //radius of pit
+    static const int r = 9000; //radius of pit
 
     Jungle(int n);
 
