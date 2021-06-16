@@ -224,6 +224,33 @@ Jungle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Jungle.cpp.s
 .PHONY : Jungle.cpp.s
 
+Pet.o: Pet.cpp.o
+
+.PHONY : Pet.o
+
+# target to build an object file
+Pet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Pet.cpp.o
+.PHONY : Pet.cpp.o
+
+Pet.i: Pet.cpp.i
+
+.PHONY : Pet.i
+
+# target to preprocess a source file
+Pet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Pet.cpp.i
+.PHONY : Pet.cpp.i
+
+Pet.s: Pet.cpp.s
+
+.PHONY : Pet.s
+
+# target to generate assembly for a file
+Pet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Pet.cpp.s
+.PHONY : Pet.cpp.s
+
 WildAnimal.o: WildAnimal.cpp.o
 
 .PHONY : WildAnimal.o
@@ -296,6 +323,9 @@ help:
 	@echo "... Jungle.o"
 	@echo "... Jungle.i"
 	@echo "... Jungle.s"
+	@echo "... Pet.o"
+	@echo "... Pet.i"
+	@echo "... Pet.s"
 	@echo "... WildAnimal.o"
 	@echo "... WildAnimal.i"
 	@echo "... WildAnimal.s"

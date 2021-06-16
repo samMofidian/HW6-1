@@ -2,10 +2,13 @@
 #include "Jungle.h"
 #include "WildAnimal.h"
 #include "DomesticAnimal.h"
+#include "Pet.h"
 #include "Animal.h"
 
 int main() {
 
+    /* ---------------------------------------part One--------------------------------------- */
+    /*
     //initial
     WildAnimal a;
     WildAnimal c;
@@ -35,6 +38,29 @@ int main() {
     //result
     jungle.movement();
     std::cout << jungle.getTotalFall();
+    */
+
+    /* ---------------------------------------part two--------------------------------------- */
+    /*
+    //initial
+    WildAnimal u;
+    WildAnimal z;
+    Pet q;
+    Pet y;
+    DomesticAnimal x;
+    DomesticAnimal w;
+    Animal *animal[] = {&u, &z, &q, &y, &w, &x};
+    Jungle jungle(6);
+    jungle.AddAnimal(animal[0]);
+    jungle.AddAnimal(animal[1]);
+    jungle.AddAnimal(animal[2]);
+    jungle.AddAnimal(animal[3]);
+    jungle.AddAnimal(animal[4]);
+    jungle.AddAnimal(animal[5]);
+    //result
+    jungle.movement();
+    std::cout << jungle.getTotalFall();
+    */
 
     return 0;
 }

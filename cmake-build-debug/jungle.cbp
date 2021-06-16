@@ -98,6 +98,12 @@
 		<Unit filename="/cygdrive/c/Users/Ali/Desktop/Jungle/Jungle.h">
 			<Option target="jungle"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ali/Desktop/Jungle/Pet.cpp">
+			<Option target="jungle"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ali/Desktop/Jungle/Pet.h">
+			<Option target="jungle"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Ali/Desktop/Jungle/WildAnimal.cpp">
 			<Option target="jungle"/>
 		</Unit>

@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/cygdrive/c/Users/Ali/Desktop/Jungle/Animal.cpp" "/cygdrive/c/Users/Ali/Desktop/Jungle/cmake-build-debug/CMakeFiles/jungle.dir/Animal.cpp.o"
   "/cygdrive/c/Users/Ali/Desktop/Jungle/DomesticAnimal.cpp" "/cygdrive/c/Users/Ali/Desktop/Jungle/cmake-build-debug/CMakeFiles/jungle.dir/DomesticAnimal.cpp.o"
   "/cygdrive/c/Users/Ali/Desktop/Jungle/Jungle.cpp" "/cygdrive/c/Users/Ali/Desktop/Jungle/cmake-build-debug/CMakeFiles/jungle.dir/Jungle.cpp.o"
+  "/cygdrive/c/Users/Ali/Desktop/Jungle/Pet.cpp" "/cygdrive/c/Users/Ali/Desktop/Jungle/cmake-build-debug/CMakeFiles/jungle.dir/Pet.cpp.o"
   "/cygdrive/c/Users/Ali/Desktop/Jungle/WildAnimal.cpp" "/cygdrive/c/Users/Ali/Desktop/Jungle/cmake-build-debug/CMakeFiles/jungle.dir/WildAnimal.cpp.o"
   "/cygdrive/c/Users/Ali/Desktop/Jungle/main.cpp" "/cygdrive/c/Users/Ali/Desktop/Jungle/cmake-build-debug/CMakeFiles/jungle.dir/main.cpp.o"
   )
