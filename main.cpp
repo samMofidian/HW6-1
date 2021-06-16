@@ -7,6 +7,8 @@
 
 int main() {
 
+    //to run each part uncomment it (delete /* */) :)
+
     /* ---------------------------------------part One--------------------------------------- */
     /*
     //initial
