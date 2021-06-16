@@ -7,10 +7,11 @@
 
 int main() {
 
-    //to run each part uncomment it (delete /* */) :)
 
     /* ---------------------------------------part One--------------------------------------- */
-    /*
+
+    std:: cout << "<<<<<<<<<<<<<<<< part 1 >>>>>>>>>>>>>>>>" << std::endl;
+
     //initial
     WildAnimal a;
     WildAnimal c;
@@ -27,23 +28,28 @@ int main() {
     e.setPosition(798,435);
     f.setPosition(49,31);
     g.setPosition(72,4);
-    Animal *animal[] = {&a, &b, &c, &d, &e, &f, &g, &h};
-    Jungle jungle(8);
-    jungle.AddAnimal(animal[0]);
-    jungle.AddAnimal(animal[1]);
-    jungle.AddAnimal(animal[2]);
-    jungle.AddAnimal(animal[3]);
-    jungle.AddAnimal(animal[4]);
-    jungle.AddAnimal(animal[6]);
-    jungle.AddAnimal(animal[5]);
-    jungle.AddAnimal(animal[7]);
+    Animal *animal1[] = {&a, &b, &c, &d, &e, &f, &g, &h};
+    Jungle jungle1(8);
+    jungle1.AddAnimal(animal1[0]);
+    jungle1.AddAnimal(animal1[1]);
+    jungle1.AddAnimal(animal1[2]);
+    jungle1.AddAnimal(animal1[3]);
+    jungle1.AddAnimal(animal1[4]);
+    jungle1.AddAnimal(animal1[6]);
+    jungle1.AddAnimal(animal1[5]);
+    jungle1.AddAnimal(animal1[7]);
     //result
-    jungle.movement();
-    std::cout << jungle.getTotalFall();
-    */
+    jungle1.movement();
+    std::cout << jungle1.getTotalFall();
+
+
+    std::cout << std::endl << "--------------------------------------------------" << std::endl;
+
 
     /* ---------------------------------------part two--------------------------------------- */
-    /*
+
+    std:: cout << "<<<<<<<<<<<<<<<< part 2 >>>>>>>>>>>>>>>>" << std::endl;
+
     //initial
     WildAnimal u;
     WildAnimal z;
@@ -51,18 +57,18 @@ int main() {
     Pet y;
     DomesticAnimal x;
     DomesticAnimal w;
-    Animal *animal[] = {&u, &z, &q, &y, &w, &x};
-    Jungle jungle(6);
-    jungle.AddAnimal(animal[0]);
-    jungle.AddAnimal(animal[1]);
-    jungle.AddAnimal(animal[2]);
-    jungle.AddAnimal(animal[3]);
-    jungle.AddAnimal(animal[4]);
-    jungle.AddAnimal(animal[5]);
+    Animal *animal2[] = {&u, &z, &q, &y, &w, &x};
+    Jungle jungle2(6);
+    jungle2.AddAnimal(animal2[0]);
+    jungle2.AddAnimal(animal2[1]);
+    jungle2.AddAnimal(animal2[2]);
+    jungle2.AddAnimal(animal2[3]);
+    jungle2.AddAnimal(animal2[4]);
+    jungle2.AddAnimal(animal2[5]);
     //result
-    jungle.movement();
-    std::cout << jungle.getTotalFall();
-    */
+    jungle2.movement();
+    std::cout << jungle2.getTotalFall();
+    
 
     return 0;
 }
